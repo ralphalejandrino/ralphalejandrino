@@ -35,7 +35,7 @@ that safe rather than fast and sorry:
   expensively.
 
 Python · Django · Django REST Framework · SQLite and PostgreSQL · progressive web apps ·
-LLM integration · Linux · Manila, UTC+8
+LLM integration · Linux · Baguio, Philippines · UTC+8
 
 Reachable at ralphmiguelalejandrino@gmail.com
 
