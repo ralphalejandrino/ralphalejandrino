@@ -38,3 +38,5 @@ Python · Django · Django REST Framework · SQLite and PostgreSQL · progressiv
 LLM integration · Linux · Manila, UTC+8
 
 Reachable at ralphmiguelalejandrino@gmail.com
+
+<!-- profile -->
