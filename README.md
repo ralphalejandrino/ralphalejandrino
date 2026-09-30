@@ -10,7 +10,7 @@ human approves before any stock moves. 2,800 customer records, 139,000 messages,
 production use.
 
 **Tabula** — point of sale, inventory and cost of goods, running on the register a café
-takes money with. Offline-capable PWA with a versioned service worker, ~2,000 automated
+takes money with. Offline-capable PWA with a versioned service worker, 670+ automated
 tests, and a deploy process that snapshots the database and records a rollback commit
 before every push.
 
@@ -19,6 +19,8 @@ Both are client systems, so the source is not public. What I can share is the wr
 - **[Engineering case notes](https://ralphalejandrino.github.io/)** — five production
   incidents where the tooling reported success and was wrong, what hid each one, and the
   check that caught it.
+- **[How I work with AI agents](https://ralphalejandrino.github.io/agents/)** — the Claude Code
+  agent I run my engineering through, with four real sessions replayed step by step.
 - **[CV](https://ralphalejandrino.github.io/cv/)**
 
 ### How I work
