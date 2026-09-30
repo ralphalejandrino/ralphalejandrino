@@ -1,44 +1,41 @@
-## Ralph Alejandrino
+## Hi, I'm Ralph
 
-I build and operate Django systems for small businesses, and I am usually also the person
-who deploys them, gets the call when they break, and finds out what actually happened.
+I build Django systems for small businesses, and I'm also the one who deploys them, picks up the
+call when something breaks, and digs in until I know what actually happened.
 
-**Locus** — multi-tenant CRM and delivery tracking for an LPG distribution business.
-Django, delivered as a frozen Windows binary so it runs unattended on the client's own
-machine. A language model parses free-text customer messages into order *drafts* that a
-human approves before any stock moves. 2,800 customer records, 139,000 messages, in daily
-production use.
+**Locus** is a multi-tenant CRM with delivery tracking, built for an LPG distribution business.
+It ships as a Windows desktop app, so it runs unattended on the client's own machine. A language
+model reads free-text customer messages and turns them into order *drafts*, and a person approves
+each one before any stock moves. It holds 2,800 customer records and 139,000 messages, and it's in
+daily production use.
 
-**Tabula** — point of sale, inventory and cost of goods, running on the register a café
-takes money with. Offline-capable PWA with a versioned service worker, 670+ automated
-tests, and a deploy process that snapshots the database and records a rollback commit
-before every push.
+**Tabula** is a point-of-sale, inventory and cost-of-goods system that runs on the register a café
+takes payments with. It's an offline-capable web app with a versioned service worker and 670+
+automated tests. Before every release, the deploy process snapshots the database and records the
+commit to roll back to.
 
-Both are client systems, so the source is not public. What I can share is the writing:
+Both belong to clients, so the code isn't public. Here's what I can share:
 
-- **[Engineering case notes](https://ralphalejandrino.github.io/)** — five production
-  incidents where the tooling reported success and was wrong, what hid each one, and the
-  check that caught it.
-- **[How I work with AI agents](https://ralphalejandrino.github.io/agents/)** — the Claude Code
-  agent I run my engineering through, with four real sessions replayed step by step.
+- **[Engineering case notes](https://ralphalejandrino.github.io/)**: five production incidents
+  where the tooling said everything was fine when it wasn't, what hid each problem, and the check
+  that caught it.
+- **[How I work with AI agents](https://ralphalejandrino.github.io/agents/)**: the Claude Code
+  agent I run my engineering through, with four real sessions you can step through.
 - **[CV](https://ralphalejandrino.github.io/cv/)**
 
 ### How I work
 
-I use AI assistants throughout and treat their output as draft work. Three habits make
-that safe rather than fast and sorry:
+I use AI tools throughout my work, and I treat what they produce as a first draft. Three habits
+keep that safe:
 
-- **Prove the test can fail.** After a fix passes, remove the fix and confirm the test
-  goes red. A green test that was never shown to fail is decoration.
-- **Run a negative control.** Every change gets a case that must *not* change.
-  Deduplication is only correct if a genuine repeat still gets through.
-- **Verify against the code, not the summary.** Migrations, fields, versions and line
-  numbers get checked in the repository before they shape a decision. I learned that one
-  expensively.
+- **I make sure a test can fail.** Once a fix passes, I remove it and check that the test goes
+  red. A test I've never seen fail doesn't prove anything.
+- **I run a negative control.** Every change gets a case that must *not* change. Deduplication
+  only works if a genuine repeat order still goes through.
+- **I check the code, not the summary.** Migrations, fields, versions and line numbers get
+  confirmed in the repository before I act on them. I learned that one the hard way.
 
-Python · Django · Django REST Framework · SQLite and PostgreSQL · progressive web apps ·
-LLM integration · Linux · Baguio, Philippines · UTC+8
+Python · Django · Django REST Framework · SQLite and PostgreSQL · progressive web apps · LLM
+integration · Linux
 
-Reachable at ralphmiguelalejandrino@gmail.com
-
-<!-- profile -->
+Baguio, Philippines (UTC+8) · ralphmiguelalejandrino@gmail.com
