@@ -6,15 +6,16 @@ call when something breaks, and digs in until I know what actually happened.
 **Locus** is a multi-tenant CRM with delivery tracking, built for an LPG distribution business.
 It ships as a Windows desktop app, so it runs unattended on the client's own machine. A language
 model reads free-text customer messages and turns them into order *drafts*, and a person approves
-each one before any stock moves. It holds 2,800 customer records and 139,000 messages, and it's in
-daily production use.
+each one before any stock moves. It has been tested on that business's real data: 2,800 customer records and 139,000
+messages. Source: **[ProjectCRM](https://github.com/ralphalejandrino/ProjectCRM)**.
 
 **Tabula** is a point-of-sale, inventory and cost-of-goods system that runs on the register a café
 takes payments with. It's an offline-capable web app with a versioned service worker and 670+
 automated tests. Before every release, the deploy process snapshots the database and records the
-commit to roll back to.
+commit to roll back to. Source: **[ProjectPOS](https://github.com/ralphalejandrino/ProjectPOS)**.
 
-Both belong to clients, so the code isn't public. Here's what I can share:
+Both repositories are public, with every client name, number and address replaced by invented
+ones. Also worth a look:
 
 - **[Engineering case notes](https://ralphalejandrino.github.io/)**: five production incidents
   where the tooling said everything was fine when it wasn't, what hid each problem, and the check
