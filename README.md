@@ -22,6 +22,10 @@ ones. Also worth a look:
   that caught it.
 - **[How I work with AI agents](https://ralphalejandrino.github.io/agents/)**: the Claude Code
   agent I run my engineering through, with four real sessions you can step through.
+- **[lms-deadline-sync](https://github.com/ralphalejandrino/lms-deadline-sync)**: reads the five
+  channels my university hands out deadlines on (Blackboard, Google Classroom, Google Chat, school
+  mail, Facebook) and keeps my calendar in sync. A source it can't read reports *unknown*, never
+  *nothing due*.
 - **[CV](https://ralphalejandrino.github.io/cv/)**
 
 ### How I work
