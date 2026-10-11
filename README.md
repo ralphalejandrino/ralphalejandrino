@@ -26,6 +26,9 @@ ones. Also worth a look:
   channels my university hands out deadlines on (Blackboard, Google Classroom, Google Chat, school
   mail, Facebook) and keeps my calendar in sync. A source it can't read reports *unknown*, never
   *nothing due*.
+- **[nebula-school](https://github.com/ralphalejandrino/nebula-school)**: the phone app on top of
+  it. A model reads free-text announcements and proposes calendar events, each backed by a
+  verbatim quote, and nothing is written until I tap to approve. Screenshots in the README.
 - **[CV](https://ralphalejandrino.github.io/cv/)**
 
 ### How I work
